@@ -1,6 +1,6 @@
-Init cluster
+# install minikube
 
-# install minikube - https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download
+https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download
 
 curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-darwin-arm64
 sudo install minikube-darwin-arm64 /usr/local/bin/minikube
@@ -11,8 +11,9 @@ sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
 sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubectx
 sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 
-# start minikube - https://minikube.sigs.k8s.io/docs/drivers/virtualbox/
+# start minikube
 
+https://minikube.sigs.k8s.io/docs/drivers/virtualbox/
 minikube start --driver=docker
 
 # install helm
